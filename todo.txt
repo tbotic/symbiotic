@@ -1,0 +1,47 @@
+
+MYDATAKNOX ACC:
+
+davor.predavec@yahoo.com
+8LhOxgQ8!7d4@f7f5
+
+GOOGLE ANALYTICS:
+
+davor.predavec@gmail.com
+8LhOxgQ8
+
+MYDATAKNOX DB:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=symbioti_symbiotic
+DB_USERNAME=symbioti_admin
+DB_PASSWORD=Symbiotic123admin!
+
+LOCALHOST DB:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=symbiotic
+DB_USERNAME=root
+DB_PASSWORD=
+
+smartsupp
+email: davor.predavec@symbiotic.hr
+pass: davor123predavec!
+
+__________________________________________________
+                    todo lista
+__________________________________________________
+
+
+napravit jos SEO
+
+triba osigurat da se mogu uploadat slike koje imaju razmak u imenu, sredit css
+
+BUG:
+kod update proizvoda ima bug da ako prominis sliku i onda minjas slike ostale da ti zaboravi ovu gori sliku pa onda ostane ista featured image, 
+ili ako maknes postojecu a prije si doda neke druge slike onda ih zaboravi jer odma vuce funkciju koja returna nazad a browser ne smi pamtit file path od kompa
+
+_________________________________________________

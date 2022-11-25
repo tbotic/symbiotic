@@ -1,0 +1,191 @@
+// Small devices (landscape phones, 576px and down)
+@media (max-width: 576px) {
+
+/* common styles */
+
+h2 {
+    font-size: 1.8em;
+}
+
+h5 {
+    font-size: 1.3em;
+}
+
+main {
+    margin-top: -55px;
+}
+
+.main-section {
+    padding: 50px 0;
+}
+
+.main-section-title {
+    text-align: center;
+    padding: 0 10vw;
+    margin-bottom: 60px;
+}
+
+/* /common styles */
+    
+/* header */
+
+.eu-header-content{
+    font-size: 10px;
+}
+
+.eu-header-content p{
+    font-size: 10px;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: .9rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+/* /header */
+
+/* Home Banner */
+
+#homeBanner .carousel-item {
+    height: 90vh;
+}
+
+#homeBanner .carousel-caption {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding: 30px 15px;
+}
+
+.car-cap-h {
+    margin-top: 30px;
+    font-weight: 700;
+    -webkit-animation: fadeIn;
+    animation: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    font-size: 2em;
+}
+
+.car-cap-p {
+    font-weight: 200;
+    font-size: 1em;
+    -webkit-animation: fadeInUp;
+    animation: fadeInUp;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+.car-cap-a {
+    position: relative;
+    padding: 8px 19px 8px;
+    margin-top: 10px;
+    line-height: 24px;
+    color: white;
+    font-size: 11px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50px;
+    text-transform: capitalize;
+    background-image: linear-gradient(to right, #eb34a7 0%, #fb8460 100%);
+    box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
+    -webkit-animation: fadeIn;
+    animation: fadeIn;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+/* /Home Banner */
+
+
+/* home main */
+
+.ft-service-box {
+    margin-bottom: 15px;
+}
+
+.ft-service-box > img {
+    margin-left: auto;
+    margin-left: auto;
+    padding: 30px 100px 10px 100px;
+}
+
+#featured-twoservices img {
+    padding: 30px;
+}
+
+.two-service-section-gap {
+    margin-top: 90px;
+}
+
+.ft-img-wrapper {
+    height: 200px;
+}
+
+/* /home main */
+
+/* about us */
+
+.employees-list {
+    padding-top: 30px;
+}
+
+.employees-box {
+    padding: 0 0 0 15px;
+}
+
+.employees-box p {
+    margin: 0;
+    padding: 0;
+}
+
+/* /about us */
+
+/* cart styles */
+
+.cart-body {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.cart-footer {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cart-title {
+    text-align: left;
+    padding-left: 0px;
+    font-weight: bold;
+}
+/* /cart styles */
+
+
+/* footer */
+
+#footer-eu h6{
+    margin: 20px 5%;
+    font-weight: 300;
+}
+
+/* /footer */
+
+.mail-modal-img {
+    padding: 30px 50px;
+    margin: 0px;
+}
+
+}
